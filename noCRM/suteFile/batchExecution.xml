@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="io.nocrm.crm.client.ClientTest"/>
+      <class name="io.nocrm.crm.reports.ReportsTest"/>
+      <class name="io.nocrm.crm.dashBoard.DashBoardTest"/>
+      <class name="io.nocrm.crm.leads.LeadsTest"/>
+      <class name="io.nocrm.crm.leads.ScheduleMeetingWithLeadTest"/>
+      <class name="io.nocrm.crm.leads.DeleteLeadTest"/>
+      <class name="io.nocrm.crm.quote.QuotesTest"/>
+      <class name="io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest"/>
+      <class name="io.nocrm.crm.leads.EditLeadsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
