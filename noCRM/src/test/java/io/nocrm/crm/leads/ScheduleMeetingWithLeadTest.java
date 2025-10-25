@@ -88,6 +88,7 @@ public class ScheduleMeetingWithLeadTest extends BaseClass {
 		String formattedMonth = String.format("%02d", monthNumber);
 		String expectedDate = date + "/" + formattedMonth + "/" + year;
 
+		/* Verify with actual date with selected date */ 
 		String actualDate = driver.findElement(By.id("date-picker")).getText();
 		Assert.assertEquals(actualDate, expectedDate, " Selected date mismatch! ");
 		Reporter.log(" Selected date verified: " + actualDate, true);

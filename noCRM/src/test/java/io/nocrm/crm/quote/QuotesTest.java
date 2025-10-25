@@ -27,6 +27,7 @@ public class QuotesTest extends BaseClass {
 		QuotesPage qp = new QuotesPage(driver);
 		HomePage hp = new HomePage(driver);
 
+		/* Lead details */
 		String leadName = eLib.getDataFromExcelFile("NewLead", 1, 0) + jLib.getRandomNumber(1000);
 		String firstName = eLib.getDataFromExcelFile("NewLead", 1, 1);
 		String lastName = eLib.getDataFromExcelFile("NewLead", 1, 2) + jLib.getRandomNumber(1000);
@@ -35,6 +36,14 @@ public class QuotesTest extends BaseClass {
 		String type = eLib.getDataFromExcelFile("NewLead", 1, 5);
 		String amount = eLib.getDataFromExcelFile("NewLead", 1, 6) + jLib.getNumeric(5);
 		String prob = eLib.getDataFromExcelFile("NewLead", 1, 7) + jLib.getNumeric(1);
+		
+		/* lead Quote details */
+		String address = eLib.getDataFromExcelFile("Client", 1, 1);
+		String vatNum = eLib.getDataFromExcelFile("Client", 1, 2);
+		String description = eLib.getDataFromExcelFile("Client", 1, 3);
+		String qty = eLib.getDataFromExcelFile("Client", 1, 4);
+		String price = eLib.getDataFromExcelFile("Client", 1, 5);
+		String tax = eLib.getDataFromExcelFile("Client", 1, 6);
 		
 		/* Create new lead */
 		UtilityClassObject.getTest().log(Status.INFO, "Create new lead");
@@ -51,8 +60,7 @@ public class QuotesTest extends BaseClass {
 		lp.getActiondropdown().click();
 		wbLib.WaitForElementPresent(driver, actp.getCreateQuoteLink());
 		actp.getCreateQuoteLink().click();
-		qp.createQuote("Acme Solutions, 8800 Innovation Way, Suite 400", "DE11122238585", "Properties", "2",
-				"5200", "41");
+		qp.createQuote(address, vatNum, description, qty,price, tax);
 		lp.getLeadCloseBtn().click();
 		wbLib.mouseMoveOnElement(driver, hp.getLeadsLink());
 		lp.getQuotesLink().click();

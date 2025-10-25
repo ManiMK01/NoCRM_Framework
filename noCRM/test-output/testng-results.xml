@@ -1,429 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Workshop_616 Client is Created]]>
-    </line>
-    <line>
-      <![CDATA[Leads Report page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[DashBoard page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Pipeline View Page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[ Selected date verified: 29/10/2025]]>
-    </line>
-    <line>
-      <![CDATA[Workshop_375 Lead is deleted]]>
-    </line>
-    <line>
-      <![CDATA[CheckQuoteTest ==> FAIL]]>
-    </line>
-    <line>
-      <![CDATA[Build_Stage21 New PipeLine is displayed]]>
-    </line>
-    <line>
-      <![CDATA[New lead is Modified created]]>
+      <![CDATA[Quote bill is created]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-24T10:01:42 IST" name="Suite" finished-at="2025-10-24T10:08:30 IST" duration-ms="407682">
+  <suite started-at="2025-10-25T10:33:34 IST" name="Default suite" finished-at="2025-10-25T10:34:29 IST" duration-ms="55356">
     <groups>
       <group name="system">
-        <method signature="CreateNewPiplineStepsTest.createNewPiplineStepsTest()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" name="createNewPiplineStepsTest" class="io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest"/>
-        <method signature="ScheduleMeetingWithLeadTest.scheduleMeetingWithLeadTest()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" name="scheduleMeetingWithLeadTest" class="io.nocrm.crm.leads.ScheduleMeetingWithLeadTest"/>
-        <method signature="QuotesTest.CheckQuoteTest()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" name="CheckQuoteTest" class="io.nocrm.crm.quote.QuotesTest"/>
+        <method signature="QuotesTest.CheckQuoteTest()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" name="CheckQuoteTest" class="io.nocrm.crm.quote.QuotesTest"/>
       </group> <!-- system -->
-      <group name="smoke">
-        <method signature="DashBoardTest.viewDashBoardTest()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" name="viewDashBoardTest" class="io.nocrm.crm.dashBoard.DashBoardTest"/>
-        <method signature="LeadsTest.viewGoalsTest()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" name="viewGoalsTest" class="io.nocrm.crm.leads.LeadsTest"/>
-        <method signature="ReportsTest.ViewLeadReportsTest()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" name="ViewLeadReportsTest" class="io.nocrm.crm.reports.ReportsTest"/>
-      </group> <!-- smoke -->
-      <group name="integration">
-        <method signature="ClientTest.viewingClientTest()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" name="viewingClientTest" class="io.nocrm.crm.client.ClientTest"/>
-        <method signature="DeleteLeadTest.deleteLeadTest()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" name="deleteLeadTest" class="io.nocrm.crm.leads.DeleteLeadTest"/>
-        <method signature="EditLeadsTest.editLeadTest()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" name="editLeadTest" class="io.nocrm.crm.leads.EditLeadsTest"/>
-      </group> <!-- integration -->
     </groups>
-    <test started-at="2025-10-24T10:01:42 IST" name="Test" finished-at="2025-10-24T10:08:30 IST" duration-ms="407682">
-      <class name="io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" started-at="2025-10-24T10:07:08 IST" name="configBC" finished-at="2025-10-24T10:07:09 IST" duration-ms="1259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" started-at="2025-10-24T10:07:09 IST" name="configBM" finished-at="2025-10-24T10:07:26 IST" duration-ms="16567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createNewPiplineStepsTest()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" started-at="2025-10-24T10:07:26 IST" name="createNewPiplineStepsTest" finished-at="2025-10-24T10:07:50 IST" duration-ms="24447" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Build_Stage21 New PipeLine is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createNewPiplineStepsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" started-at="2025-10-24T10:07:50 IST" name="configAM" finished-at="2025-10-24T10:07:52 IST" duration-ms="1766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest@2362f559]" started-at="2025-10-24T10:07:52 IST" name="configAC" finished-at="2025-10-24T10:07:52 IST" duration-ms="494" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.dashBoard.CreateNewPiplineStepsTest -->
+    <test started-at="2025-10-25T10:33:34 IST" name="Default test" finished-at="2025-10-25T10:34:29 IST" duration-ms="55356">
       <class name="io.nocrm.crm.quote.QuotesTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" started-at="2025-10-24T10:06:20 IST" name="configBC" finished-at="2025-10-24T10:06:21 IST" duration-ms="1138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" started-at="2025-10-24T10:06:21 IST" name="configBM" finished-at="2025-10-24T10:06:43 IST" duration-ms="21619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="CheckQuoteTest()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" started-at="2025-10-24T10:06:43 IST" name="CheckQuoteTest" finished-at="2025-10-24T10:07:06 IST" duration-ms="23871" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-id='duplicate-leads-view']"}
-  (Session info: chrome=141.0.7390.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cba5c04507021d3f3fd18d443e5bd943, findElement {value=//div[@data-id='duplicate-leads-view'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53300/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cba5c04507021d3f3fd18d443e5bd943]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-id='duplicate-leads-view']"}
-  (Session info: chrome=141.0.7390.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cba5c04507021d3f3fd18d443e5bd943, findElement {value=//div[@data-id='duplicate-leads-view'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53300/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cba5c04507021d3f3fd18d443e5bd943
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
-at io.nocrm.crm.quote.QuotesTest.CheckQuoteTest(QuotesTest.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[CheckQuoteTest ==> FAIL]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CheckQuoteTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" started-at="2025-10-24T10:07:07 IST" name="configAM" finished-at="2025-10-24T10:07:08 IST" duration-ms="1125" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="nav-username cursor-default">...</span> is not clickable at point (1484, 26). Other element would receive the click: <div class="rel">...</div>
-  (Session info: chrome=141.0.7390.109)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cba5c04507021d3f3fd18d443e5bd943, clickElement {id=f.56E350800F6A8B4577A3E2CE21B487F1.d.C9B2499FB643362CE99A20B877063FAC.e.308}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53300/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (cba5c04507021d3f3fd18d443e5bd943)] -> xpath: //span[@class='nav-username cursor-default']]
-Session ID: cba5c04507021d3f3fd18d443e5bd943]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="nav-username cursor-default">...</span> is not clickable at point (1484, 26). Other element would receive the click: <div class="rel">...</div>
-  (Session info: chrome=141.0.7390.109)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cba5c04507021d3f3fd18d443e5bd943, clickElement {id=f.56E350800F6A8B4577A3E2CE21B487F1.d.C9B2499FB643362CE99A20B877063FAC.e.308}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.109, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53300}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53300/devtoo..., se:cdpVersion: 141.0.7390.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (cba5c04507021d3f3fd18d443e5bd943)] -> xpath: //span[@class='nav-username cursor-default']]
-Session ID: cba5c04507021d3f3fd18d443e5bd943
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-at io.nocrm.crm.objectRepository.HomePage.logout(HomePage.java:124)
-at no.nocrm.crm.base.BaseClass.configAM(BaseClass.java:80)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@8297b3a]" started-at="2025-10-24T10:07:08 IST" name="configAC" finished-at="2025-10-24T10:07:08 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.quote.QuotesTest -->
-      <class name="io.nocrm.crm.reports.ReportsTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" started-at="2025-10-24T10:02:23 IST" name="configBC" finished-at="2025-10-24T10:02:24 IST" duration-ms="990" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" started-at="2025-10-24T10:02:24 IST" name="configBM" finished-at="2025-10-24T10:02:45 IST" duration-ms="20984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="ViewLeadReportsTest()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" started-at="2025-10-24T10:02:45 IST" name="ViewLeadReportsTest" finished-at="2025-10-24T10:02:47 IST" duration-ms="2755" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Leads Report page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ViewLeadReportsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" started-at="2025-10-24T10:02:47 IST" name="configAM" finished-at="2025-10-24T10:02:49 IST" duration-ms="1407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.reports.ReportsTest@65e98b1c]" started-at="2025-10-24T10:02:49 IST" name="configAC" finished-at="2025-10-24T10:02:49 IST" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.reports.ReportsTest -->
-      <class name="io.nocrm.crm.leads.ScheduleMeetingWithLeadTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" started-at="2025-10-24T10:04:26 IST" name="configBC" finished-at="2025-10-24T10:04:27 IST" duration-ms="989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" started-at="2025-10-24T10:04:27 IST" name="configBM" finished-at="2025-10-24T10:04:59 IST" duration-ms="31648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="scheduleMeetingWithLeadTest()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" started-at="2025-10-24T10:04:59 IST" name="scheduleMeetingWithLeadTest" finished-at="2025-10-24T10:05:13 IST" duration-ms="14536" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ Selected date verified: 29/10/2025]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- scheduleMeetingWithLeadTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" started-at="2025-10-24T10:05:13 IST" name="configAM" finished-at="2025-10-24T10:05:15 IST" duration-ms="1900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.leads.ScheduleMeetingWithLeadTest@510f3d34]" started-at="2025-10-24T10:05:15 IST" name="configAC" finished-at="2025-10-24T10:05:15 IST" duration-ms="387" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.leads.ScheduleMeetingWithLeadTest -->
-      <class name="io.nocrm.crm.leads.LeadsTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" started-at="2025-10-24T10:03:23 IST" name="configBC" finished-at="2025-10-24T10:03:24 IST" duration-ms="904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" started-at="2025-10-24T10:03:24 IST" name="configBM" finished-at="2025-10-24T10:04:23 IST" duration-ms="58654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="viewGoalsTest()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" started-at="2025-10-24T10:04:23 IST" name="viewGoalsTest" finished-at="2025-10-24T10:04:23 IST" duration-ms="340" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Pipeline View Page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- viewGoalsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" started-at="2025-10-24T10:04:23 IST" name="configAM" finished-at="2025-10-24T10:04:26 IST" duration-ms="2156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.leads.LeadsTest@6ad82709]" started-at="2025-10-24T10:04:26 IST" name="configAC" finished-at="2025-10-24T10:04:26 IST" duration-ms="357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.leads.LeadsTest -->
-      <class name="io.nocrm.crm.dashBoard.DashBoardTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" started-at="2025-10-24T10:02:49 IST" name="configBC" finished-at="2025-10-24T10:02:50 IST" duration-ms="957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" started-at="2025-10-24T10:02:50 IST" name="configBM" finished-at="2025-10-24T10:03:20 IST" duration-ms="29766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="viewDashBoardTest()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" started-at="2025-10-24T10:03:20 IST" name="viewDashBoardTest" finished-at="2025-10-24T10:03:21 IST" duration-ms="1319" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[DashBoard page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- viewDashBoardTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" started-at="2025-10-24T10:03:21 IST" name="configAM" finished-at="2025-10-24T10:03:23 IST" duration-ms="2075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.dashBoard.DashBoardTest@61322f9d]" started-at="2025-10-24T10:03:23 IST" name="configAC" finished-at="2025-10-24T10:03:23 IST" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.dashBoard.DashBoardTest -->
-      <class name="io.nocrm.crm.leads.DeleteLeadTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" started-at="2025-10-24T10:05:15 IST" name="configBC" finished-at="2025-10-24T10:05:17 IST" duration-ms="1291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" started-at="2025-10-24T10:05:17 IST" name="configBM" finished-at="2025-10-24T10:05:48 IST" duration-ms="30923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="deleteLeadTest()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" started-at="2025-10-24T10:05:48 IST" name="deleteLeadTest" finished-at="2025-10-24T10:06:18 IST" duration-ms="29962" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Workshop_375 Lead is deleted]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteLeadTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" started-at="2025-10-24T10:06:18 IST" name="configAM" finished-at="2025-10-24T10:06:19 IST" duration-ms="1739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.leads.DeleteLeadTest@7817fd62]" started-at="2025-10-24T10:06:19 IST" name="configAC" finished-at="2025-10-24T10:06:20 IST" duration-ms="452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.leads.DeleteLeadTest -->
-      <class name="io.nocrm.crm.client.ClientTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:01:42 IST" name="configBS" finished-at="2025-10-24T10:01:42 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:33:34 IST" name="configBS" finished-at="2025-10-25T10:33:34 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:01:43 IST" name="configBC" finished-at="2025-10-24T10:01:44 IST" duration-ms="1700" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:33:34 IST" name="configBC" finished-at="2025-10-25T10:33:36 IST" duration-ms="2301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:01:44 IST" name="configBM" finished-at="2025-10-24T10:02:16 IST" duration-ms="31755" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:33:36 IST" name="configBM" finished-at="2025-10-25T10:34:09 IST" duration-ms="33177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="viewingClientTest()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:02:16 IST" name="viewingClientTest" finished-at="2025-10-24T10:02:21 IST" duration-ms="4781" status="PASS">
+        <test-method signature="CheckQuoteTest()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:34:09 IST" name="CheckQuoteTest" finished-at="2025-10-25T10:34:25 IST" duration-ms="15492" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Workshop_616 Client is Created]]>
+              <![CDATA[Quote bill is created]]>
             </line>
           </reporter-output>
-        </test-method> <!-- viewingClientTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:02:21 IST" name="configAM" finished-at="2025-10-24T10:02:22 IST" duration-ms="1510" status="PASS">
+        </test-method> <!-- CheckQuoteTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:34:25 IST" name="configAM" finished-at="2025-10-25T10:34:28 IST" duration-ms="3748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:02:22 IST" name="configAC" finished-at="2025-10-24T10:02:23 IST" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:34:28 IST" name="configAC" finished-at="2025-10-25T10:34:29 IST" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:io.nocrm.crm.client.ClientTest@279fedbd]" started-at="2025-10-24T10:08:30 IST" name="configAS" finished-at="2025-10-24T10:08:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:io.nocrm.crm.quote.QuotesTest@2cd76f31]" started-at="2025-10-25T10:34:29 IST" name="configAS" finished-at="2025-10-25T10:34:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- io.nocrm.crm.client.ClientTest -->
-      <class name="io.nocrm.crm.leads.EditLeadsTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" started-at="2025-10-24T10:07:52 IST" name="configBC" finished-at="2025-10-24T10:07:54 IST" duration-ms="1132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" started-at="2025-10-24T10:07:54 IST" name="configBM" finished-at="2025-10-24T10:08:21 IST" duration-ms="27656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="editLeadTest()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" started-at="2025-10-24T10:08:21 IST" name="editLeadTest" finished-at="2025-10-24T10:08:28 IST" duration-ms="7041" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[New lead is Modified created]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- editLeadTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" started-at="2025-10-24T10:08:28 IST" name="configAM" finished-at="2025-10-24T10:08:30 IST" duration-ms="1536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:io.nocrm.crm.leads.EditLeadsTest@b2c9a9c]" started-at="2025-10-24T10:08:30 IST" name="configAC" finished-at="2025-10-24T10:08:30 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- io.nocrm.crm.leads.EditLeadsTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- io.nocrm.crm.quote.QuotesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

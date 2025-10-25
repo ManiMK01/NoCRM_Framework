@@ -24,18 +24,18 @@ public class ClientTest extends BaseClass {
 		NewClientPage ncp = new NewClientPage(driver);
 		ClientsPage cp = new ClientsPage(driver);
 		
-		
 		/* Click on New client button */ 
 		UtilityClassObject.getTest().log(Status.INFO, "Click on New client button");
 		wbLib.mouseMoveOnElement(driver, hp.getClientsLink());
 		hp.getNewClientLink().click();
 		String leadName = eLib.getDataFromExcelFile("NewLead", 1, 0) + jLib.getRandomNumber(1000);
-
+		String VATNumber = eLib.getDataFromExcelFile("ClientAddress", 1, 0);
+		String BillingAddress = eLib.getDataFromExcelFile("ClientAddress", 1, 1);
+		String DeliveryAddress = eLib.getDataFromExcelFile("ClientAddress", 1, 2);
+		
 		/* Enter the credentials  and click on save button */
 		UtilityClassObject.getTest().log(Status.INFO, "Enter the credentials  and click on save button");
-		ncp.createClient(leadName, "DE111222385",
-				"Acme Solutions, 8800 Innovation Way, Suite 400 Cambridge, MA 02139 United States",
-				"1234 Example St Apt 7B Pleasantview, CA 90210 United States");
+		ncp.createClient(leadName, VATNumber,BillingAddress,DeliveryAddress);
 		
 		/* Click on clients link and open client folder */
 		UtilityClassObject.getTest().log(Status.INFO, "Click on clients link and open client folder");
